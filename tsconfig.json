@@ -1,0 +1,17 @@
+{
+  "include": ["src/**/*.ts", "src/**/*.tsx", "globals.d.ts"],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es6",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "jsx": "react"
+  },
+  "rules": {}
+}
